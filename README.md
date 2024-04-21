@@ -897,7 +897,7 @@ cat funcex.sh
 bash
 #!/bin/bash
 # trying to access script parameters inside a function
-function func {
+```function func {
 echo $[ $1 * $2 ]
 }
 if [ $# -eq 2 ]
@@ -907,7 +907,7 @@ echo "The result is $value"
 else
 echo "Usage: badtest1 a b"
 fi
-
+```
 ## OUTPUT
 $ bash script.sh 1 2 The result is 2
 
