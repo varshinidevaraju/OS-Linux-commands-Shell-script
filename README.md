@@ -309,7 +309,8 @@ backup.tar
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 
 chmod 755 my-script.sh
-./my-script.sh```
+./my-script.sh
+```
 ## OUTPUT
 echo Hello World
 
@@ -342,6 +343,7 @@ ps
 
 cat scriptest.sh 
 bash
+```
 \#!/bin/sh
 echo “File name is $0 ”
 echo "File name is " `basename $0`
@@ -358,7 +360,7 @@ ps
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
-
+```
 ## OUTPUT
 File name is ./scriptest.sh File name is scriptest.sh First arg. is 1 Second arg. is 2 Third arg. is 3 Fourth arg. is The @is123The\ is $ The $$ is 124
  
