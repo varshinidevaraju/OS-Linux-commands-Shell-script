@@ -305,11 +305,11 @@ gunzip backup.tar.gz
 backup.tar 
 # Shell Script
 
-echo '#!/bin/sh' > my-script.sh
+```echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 
 chmod 755 my-script.sh
-./my-script.sh
+./my-script.sh```
 ## OUTPUT
 echo Hello World
 
@@ -325,7 +325,7 @@ cat herecheck.txt
 ## OUTPUT
 hello in this world i cant stop for this non stop movement
 cat < scriptest.sh 
-bash
+```bash
 \#!/bin/sh
 echo “File name is $0 ”
 echo "File name is " `basename $0`
@@ -338,7 +338,7 @@ echo 'The $\# is ' $1#
 echo 'The $$ is ' $$
 ps
 ^d
- 
+``` 
 
 cat scriptest.sh 
 bash
