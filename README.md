@@ -972,7 +972,7 @@ print "No of Words count:",wordcount
 }
  
 cat>data.dat
-bash
+```bash
 bcdfghj
 abcdfghj
 bcdfghj
@@ -983,11 +983,12 @@ bcdfghj
 obcdfghj
 bcdfghj
 ubcdfghj
-
+```
 awk -f nc.awk data.dat
 ## OUTPUT 
  total characters 75 Number of Lines are 10 No of Words count: 10
 cat > palindrome.sh
+```
 bash
 #num=545
 echo "Enter the number"
@@ -1011,7 +1012,7 @@ then
 else
 	echo "Number is NOT palindrome"
 fi
-
+```
 ## OUTPUT 
 Enter the number 121 Number is palindrome
 
